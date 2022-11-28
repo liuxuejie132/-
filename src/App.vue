@@ -1,10 +1,13 @@
 <template>
-    <fieldset>
-        <legend>App</legend>
-        <!-- 3. 展示面包屑组件 -->
-        <breadCrumb></breadCrumb>
-        <router-view></router-view>
-    </fieldset>
+    <!-- <User />
+        <Other /> -->
+    <ProductCom />
+    <CartCom />
 </template>
 
-<script setup></script>
+<script setup>
+// import User from "./components/user.vue";
+// import Other from "./components/other.vue";
+import CartCom from "./components/shop/index.vue";
+import ProductCom from "./components/product/index.vue";
+</script>
